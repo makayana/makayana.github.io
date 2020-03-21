@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
 permalink: /:categories/:year/:month/:title/
-title: My Awesome Site's Title
+title: Kayan Ma | SYSU | Research
 description: Description of my website
+name: Kayan Ma
+markdown: kramdown
