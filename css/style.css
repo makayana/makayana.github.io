@@ -4,15 +4,16 @@
 	height:100%;
 	box-shadow:00px 3px 10px grey; 
 }
-
 #Head {
 	font: bold 27px/32px calibri, Microsoft Yahei, sans-serif;
+	font-size: min(4vw, 27px);
 	color: #777777;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 #Subhead {
-	font: 17px/20px calibri, sans-serif;
+	font: 17px/19px calibri, Microsoft Yahei, sans-serif;
+	font-size: min(3vw, 17px);
 	color: #999999;
 	margin-left: 10%;
 	margin-right: 10%;
