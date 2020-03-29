@@ -54,6 +54,7 @@
 #textmainsub{
 	font: 17px/22px century gothic, Microsoft Yahei, sans-serif;
 	color: #a9a9a9;
+	font-size: min(3.5vw, 17px);
 }
 #textmainsub2{
 	font: 15px/29px century gothic, Microsoft Yahei, sans-serif;
