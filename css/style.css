@@ -6,14 +6,14 @@
 }
 #Head {
 	font: bold 27px/32px calibri, Microsoft Yahei, sans-serif;
-	font-size: min(4vw, 27px);
+	font-size: min(4.5vw, 27px);
 	color: #777777;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 #Subhead {
 	font: 17px/19px calibri, Microsoft Yahei, sans-serif;
-	font-size: min(3vw, 17px);
+	font-size: min(3.2vw, 17px);
 	color: #999999;
 	margin-left: 10%;
 	margin-right: 10%;
