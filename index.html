@@ -8,9 +8,13 @@ layout: default
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>KaYan Ma | CUHK | Research</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		{% seo %}
+    <link rel="stylesheet" href="{{ "/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
   </head>
-  <body style="                                                                                            background-color: #eeeeee;">
+  <body style="background-color: #eeeeee;">
     <div id="shadow1">
       <p><br>
       </p>
