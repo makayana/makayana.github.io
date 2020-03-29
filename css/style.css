@@ -1,0 +1,113 @@
+#shadow1 {
+	background-color:white;
+	width:100%;
+	height:100%;
+	box-shadow:00px 3px 10px grey; 
+}
+
+#Head {
+	font: bold 27px/32px calibri, Microsoft Yahei, sans-serif;
+	color: #777777;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#Subhead {
+	font: 17px/0px calibri, sans-serif;
+	color: #999999;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#menu {
+	font: bold 17px/0px century gothic, sans-serif;
+	font-size: min(2.7vw, 17px);
+	color: #434343;
+	background-color: #d7fcee;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-indent: 5.5%;
+}
+#imgindent {
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+#imgwidth {
+	margin-left: auto;
+	margin-right: auto;
+	width: max(250px, 25%)
+}
+#texthead{
+	font: 19px/22px century gothic, Microsoft Yahei, sans-serif;
+	color: #777777;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#textmain{
+	font: 17px/22px century gothic, Microsoft Yahei, sans-serif;
+	color: #777777;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#textmainsub{
+	font: 17px/22px century gothic, Microsoft Yahei, sans-serif;
+	color: #a9a9a9;
+}
+#textmainsub2{
+	font: 15px/29px century gothic, Microsoft Yahei, sans-serif;
+	color: #a9a9a9;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+a:link{
+	color: #434343;
+	text-decoration: none;
+}
+a:visited {
+	color: #434343;
+	text-decoration: none;
+}
+a:hover{
+	color: #2aa9f7;
+	text-decoration: none;
+}
+a:active{
+	color: #434343;
+	text-decoration: none;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+	flex: 49%;
+	max-width: 49%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+#myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#myImg:hover {
+	opacity: 0.6;
+}
+
