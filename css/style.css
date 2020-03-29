@@ -5,15 +5,15 @@
 	box-shadow:00px 3px 10px grey; 
 }
 #Head {
-	font: bold 27px/32px calibri, Microsoft Yahei, sans-serif;
-	font-size: min(4.5vw, 27px);
+	font: bold 27px/32px century gothic, Microsoft Yahei, sans-serif;
+	font-size: min(5vw, 27px);
 	color: #777777;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 #Subhead {
-	font: 17px/19px calibri, Microsoft Yahei, sans-serif;
-	font-size: min(3.2vw, 17px);
+	font: 17px/19px century gothic, Microsoft Yahei, sans-serif;
+	font-size: min(3.5vw, 17px);
 	color: #999999;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -39,12 +39,14 @@
 }
 #texthead{
 	font: 19px/22px century gothic, Microsoft Yahei, sans-serif;
+	font-size: min(3.2vw, 19px);
 	color: #777777;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 #textmain{
 	font: 17px/22px century gothic, Microsoft Yahei, sans-serif;
+	font-size: min(3.2vw, 19px);
 	color: #777777;
 	margin-left: 10%;
 	margin-right: 10%;
